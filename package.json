@@ -1,0 +1,24 @@
+{
+  "name": "aha-develop.asana-auth-test",
+  "description": "Asana Importer",
+  "version": "0.0.0",
+  "author": "justinpaulson",
+  "repository": {
+    "type": "git",
+    "url": "TODO: Add the GitHub URL to your extension in package.json"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "aha-cli": "1.9.4"
+  },
+  "ahaExtension": {
+    "contributes": {
+      "importers": {
+        "asanaAuth": {
+          "title": "Asana Auth",
+          "entryPoint": "src/importers/asanaAuth.js"
+        }
+      }
+    }
+  }
+}
