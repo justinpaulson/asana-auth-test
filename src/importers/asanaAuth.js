@@ -1,4 +1,4 @@
-const importer = aha.getImporter("aha-develop.asanaAuth");
+const importer = aha.getImporter("aha-develop.asana-auth-test.asanaAuth");
 
 /**
    * @param useCache force a full re-auth even if the token is already cached
